@@ -1,0 +1,44 @@
+Support information:
+
+[Starting the application]
+	- Run login_window.py from command line or Terminal using the following command:
+	-> python3 login_window.py
+
+########################################################################
+
+[Login Window]
+	- To log-in the default username is "xyz" and password is "xyz".
+
+[Selector Window]
+	- Here, you can sign-up as a new user. Go to File -> Sign Up then enter your details and create a new user.
+	- Or you can just select a commodity to make predictions for by clicking any one of the agricultural commodity images provided in the scrollable frame.
+
+[Main Window]
+	- Here, you can load a dataset to make predictions for and then save the resulting dataset along with the predicted values.
+	- To add a record to the dataset select a State, District, Market and an Arrival Date for the selected commodity. Then click the "ADD" button.
+	- To update a row value, click the "Update" button. And an Update Dialog Window will appear. Here, enter the row number and then the new values for the row.
+	- To delete or remove a row value, click the "Delete (Row)" button. And a Delete Dialog Window will appear. Here, enter the row number and then the row corresponding to that row number will be removed or deleted.
+	- Finally, when the dataset is ready click the "Predict" button to get the prediction values for the minimum, maximum and modal prices.
+
+########################################################################
+
+[Installing Anaconda]
+	- For Windows, the 64-bit Anaconda installer is provided with this application. If you have a 32-bit machine or you use Linux or MacOS, you may have to download it yourself from the Anaconda for Python website.
+	-> https://anaconda.org/anaconda/python
+
+[Installing TensorFlow]
+	- Go to the TensorFlow website (link is given below) and follow the instructions to install TensorFlow.
+	-> https://www.tensorflow.org/install/
+
+[Installing Theano]
+	- Run the following command in your OS Terminal or Commandline.
+	-> pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
+
+[Installing Keras]
+	- Run the following command in your OS Terminal or Commandline.
+	-> pip install --upgrade keras
+
+########################################################################
+
+[Run into errors?]
+	- Contact developers by clicking Help>About Developer, from either the Selector Window or the Main Window
