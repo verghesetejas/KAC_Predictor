@@ -82,7 +82,8 @@ class Ui_SignUpDialog(object):
         connection.close()
         print("1 New User has been Added!")
 
-
+# Only for Developers...
+'''
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -91,4 +92,4 @@ if __name__ == "__main__":
     ui.setupUi(SignUpDialog)
     SignUpDialog.show()
     sys.exit(app.exec_())
-
+'''

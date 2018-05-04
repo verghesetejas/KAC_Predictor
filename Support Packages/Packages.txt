@@ -1,19 +1,25 @@
 Package requirements:
 
 [LINUX USERS]
+
 (Please install these packages with pip3 and thus, use python3 to run the project. 
 e.g.: pip3 install numpy)
 
-1. numpy
-2. tensorflow 
-3. theano
-4. h5py
-5. keras
-6. PyQt5
-7. pandas
-8. scipy
-9. scikit-learn
+1. Python 3.6
+2. numpy
+3. tensorflow 
+4. theano
+5. h5py
+6. keras
+7. PyQt5
+8. pandas
+9. scipy
+10. scikit-learn
 
 [WINDOWS AND MAC USERS]
-Please install the provided distribution of Anaconda, which will help you install all the above packages.
+
+It is advised to install Anaconda for Python 3.6 before running the project. You may install any version of Anaconda v5.1 or newer. You can use the following link to download Anaconda for your computer system -
+
+https://www.anaconda.com/download/
+
 Scipy and Numpy are already included in the package, while others need to be downloaded via Anaconda.

@@ -558,7 +558,8 @@ class Ui_MainWindow(object):
         else:
             pass
 
-
+# Only for Developers...
+'''
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -567,4 +568,4 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow, "Amla", MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-
+'''

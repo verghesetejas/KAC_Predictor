@@ -186,7 +186,8 @@ class Ui_UpdateDialog(object):
         connection.close()
         self.checkPoint = 1
 
-
+# Only for Developers...
+'''
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -195,4 +196,4 @@ if __name__ == "__main__":
     ui.setupUi(UpdateDialog, "Amla")
     UpdateDialog.show()
     sys.exit(app.exec_())
-
+'''

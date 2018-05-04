@@ -357,7 +357,8 @@ class Ui_SelectorWindow(object):
         else:
             pass
 
-
+# Only for Developers...
+'''
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -366,4 +367,4 @@ if __name__ == "__main__":
     ui.setupUi(SelectorWindow)
     SelectorWindow.show()
     sys.exit(app.exec_())
-
+'''
