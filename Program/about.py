@@ -17,4 +17,4 @@ class AboutDeveloper:
 class AboutProject:
     
     def __init__(self):
-        webbrowser.open_new(r'Major Project Report - Tejas Verghese.pdf')
+        webbrowser.open_new(r'AboutProject.pdf')
