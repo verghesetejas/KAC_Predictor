@@ -41,4 +41,6 @@ Support information:
 ########################################################################
 
 [Run into errors?]
-	- Contact developers by clicking Help>About Developer, from either the Selector Window or the Main Window
+	- Contact developers by clicking Help>About Developer, from either the Selector Window or the Main Window.
+	- The Project is uploaded to GitHub. Any and all future work on this project will be available through the following link.
+	-> https://github.com/verghesetejas/KAC_Predictor.git
