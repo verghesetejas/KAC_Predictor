@@ -224,7 +224,7 @@ class Ui_LoginWindow(object):
             pass
 
 # Only for Developers...
-
+'''
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -233,4 +233,4 @@ if __name__ == "__main__":
     ui.setupUi(LoginWindow)
     LoginWindow.show()
     sys.exit(app.exec_())
-
+'''
