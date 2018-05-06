@@ -109,7 +109,7 @@ class Ui_LoginWindow(object):
         
         # Label for Text part-1
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(150, 10, 311, 31))
+        self.label_2.setGeometry(QtCore.QRect(115, 10, 380, 31))
         font = QtGui.QFont()
         font.setFamily("Cambria")
         font.setPointSize(16)
@@ -127,7 +127,7 @@ class Ui_LoginWindow(object):
         
         # Label for Text part-2
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(160, 40, 301, 31))
+        self.label_3.setGeometry(QtCore.QRect(115, 40, 380, 31))
         font = QtGui.QFont()
         font.setFamily("Cambria")
         font.setPointSize(16)
@@ -140,7 +140,7 @@ class Ui_LoginWindow(object):
         
         # Label for Text part-3
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(140, 70, 341, 31))
+        self.label_4.setGeometry(QtCore.QRect(115, 70, 380, 31))
         font = QtGui.QFont()
         font.setFamily("Cambria")
         font.setPointSize(16)
@@ -163,9 +163,9 @@ class Ui_LoginWindow(object):
         self.passEdit.setPlaceholderText(_translate("MainWindow", "Password"))
         self.loginButton.setText(_translate("MainWindow", "Login"))
         self.cancelButton.setText(_translate("MainWindow", "Cancel"))
-        self.label_2.setText(_translate("MainWindow", "\" Key Agricultural Commodities"))
+        self.label_2.setText(_translate("MainWindow", "\"Key Agricultural Commodities"))
         self.label_3.setText(_translate("MainWindow", "Daily Market Price Prediction"))
-        self.label_4.setText(_translate("MainWindow", "using Deep Neural Networks \""))
+        self.label_4.setText(_translate("MainWindow", "using Deep Neural Networks\""))
         
     def showSelectorWindow(self, username):
         selectorWindow = QtWidgets.QMainWindow()
@@ -224,7 +224,7 @@ class Ui_LoginWindow(object):
             pass
 
 # Only for Developers...
-'''
+
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -233,4 +233,4 @@ if __name__ == "__main__":
     ui.setupUi(LoginWindow)
     LoginWindow.show()
     sys.exit(app.exec_())
-'''
+
