@@ -1,7 +1,7 @@
 Package requirements:
 
 [LINUX USERS]
-
+(Please Google search how to install these packages, because many of these are open source and their installation procedures may be suject to change.)
 (Please install these packages with pip3 and thus, use python3 to run the project. 
 e.g.: pip3 install numpy)
 
@@ -23,3 +23,12 @@ It is advised to install Anaconda for Python 3.6 before running the project. You
 https://www.anaconda.com/download/
 
 Scipy and Numpy are already included in the package, while others need to be downloaded via Anaconda.
+
+Other than that you need to install -
+(Please Google search how to install these packages, because many of these are open source and their installation procedures may be suject to change.)
+
+1. theano
+2. tensorflow
+3. h5py
+4. keras
+5. PyQt5

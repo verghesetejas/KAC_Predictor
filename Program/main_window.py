@@ -35,8 +35,9 @@ except AttributeError:
         return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_MainWindow(object):  
-    def setupUi(self, MainWindow, commodity, SelectorWindow):
+    def setupUi(self, MainWindow, commodity, SelectorWindow, username):
         # Main Window Settings
+        self.user = username
         self.commodityName = commodity
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(687, 549)
@@ -57,10 +58,10 @@ class Ui_MainWindow(object):
         self.gridLayout.addItem(spacerItem, 4, 2, 1, 1)
         spacerItem1 = QtWidgets.QSpacerItem(20, 80, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.gridLayout.addItem(spacerItem1, 2, 2, 1, 1)
-        MainWindow.showMaximized()
         resolution = QtWidgets.QDesktopWidget().screenGeometry()
         MainWindow.move((resolution.width() / 2) - (MainWindow.frameSize().width() / 2),
                         (resolution.height() / 2) - (MainWindow.frameSize().height() / 2))
+        MainWindow.showMaximized()
         
         # TableWidget Settings
         self.tableWidget = QtWidgets.QTableWidget(self.centralwidget)
@@ -84,6 +85,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.textBrowser.sizePolicy().hasHeightForWidth())
         self.textBrowser.setSizePolicy(sizePolicy)
+        self.textBrowser.setStyleSheet("background-image: url(Images/textBrowser-bg.png); color: rgb(74, 237, 227); font-weight: bold")
         self.textBrowser.setObjectName("textBrowser")
         self.outputTextB('Commodity: %s' % commodity)
         
@@ -279,6 +281,15 @@ class Ui_MainWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        self.userLabel = QtWidgets.QLabel()
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(10)
+        font.setBold(True)
+        self.userLabel.setFont(font)
+        self.userLabel.setAlignment(QtCore.Qt.AlignLeft)
+        self.userLabel.setText("Active User: %s" % self.user)
+        self.statusbar.addWidget(self.userLabel)
         
         # Menu -> Edit -> Edit_Data -> Update(Row) Settings
         self.actionUpdate = QtWidgets.QAction(MainWindow)
@@ -544,6 +555,11 @@ class Ui_MainWindow(object):
             This Function will Exit/Quit the Application.
             It will also ask for confirmation before exit. 
         '''
+        connection = sqlite3.connect("combo_loader.db")
+        connection.execute("DELETE FROM INPUT")
+        connection.execute("DELETE FROM OUTPUT")
+        connection.commit()
+        connection.close()
         ret = QtWidgets.QMessageBox.Yes
         choice = QtWidgets.QMessageBox()
         choice.setWindowTitle("Quit Application!")

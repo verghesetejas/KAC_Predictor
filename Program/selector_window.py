@@ -14,6 +14,7 @@ from functools import partial
 from signup_window import Ui_SignUpDialog
 from main_window import Ui_MainWindow
 from about import AboutDeveloper, AboutProject
+import sqlite3
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -30,8 +31,9 @@ except AttributeError:
         return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_SelectorWindow(object):
-    def setupUi(self, MainWindow):
+    def setupUi(self, MainWindow, username):
         # Selector Window Settings
+        self.user = username
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(720, 445)
         MainWindow.setMaximumSize(QtCore.QSize(16777215, 16777215))
@@ -281,6 +283,15 @@ class Ui_SelectorWindow(object):
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
         MainWindow.setStatusBar(self.statusbar)
+        self.userLabel = QtWidgets.QLabel()
+        font = QtGui.QFont()
+        font.setFamily("Times New Roman")
+        font.setPointSize(10)
+        font.setBold(True)
+        self.userLabel.setFont(font)
+        self.userLabel.setAlignment(QtCore.Qt.AlignLeft)
+        self.userLabel.setText("Active User: %s" % self.user)
+        self.statusbar.addWidget(self.userLabel)
         
         # Menu -> Quit Button Settings
         self.actionQuit = QtWidgets.QAction(MainWindow)
@@ -334,7 +345,7 @@ class Ui_SelectorWindow(object):
     def showMainWindow(self, MainWindow, commodity):
         mainWindow = QtWidgets.QMainWindow()
         ui = Ui_MainWindow()
-        ui.setupUi(mainWindow, commodity, MainWindow)
+        ui.setupUi(mainWindow, commodity, MainWindow, self.user)
         mainWindow.show()
         MainWindow.hide()
         
@@ -343,6 +354,11 @@ class Ui_SelectorWindow(object):
             This Function will Exit/Quit the Application.
             It will also ask for confirmation before exit. 
         '''
+        connection = sqlite3.connect("combo_loader.db")
+        connection.execute("DELETE FROM INPUT")
+        connection.execute("DELETE FROM OUTPUT")
+        connection.commit()
+        connection.close()
         ret = QtWidgets.QMessageBox.Yes
         choice = QtWidgets.QMessageBox()
         choice.setWindowTitle("Quit Application!")

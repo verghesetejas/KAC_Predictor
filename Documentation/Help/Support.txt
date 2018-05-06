@@ -1,8 +1,8 @@
 Support information:
 
 [Starting the application]
-	- Run login_window.py from command line or Terminal using the following command:
-	-> python3 login_window.py
+	- Run __init__.py from command line or Terminal using the following command:
+	-> python3 __init__.py
 
 ########################################################################
 

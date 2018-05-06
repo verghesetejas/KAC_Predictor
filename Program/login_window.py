@@ -112,7 +112,7 @@ class Ui_LoginWindow(object):
         self.label_2.setGeometry(QtCore.QRect(150, 10, 311, 31))
         font = QtGui.QFont()
         font.setFamily("Cambria")
-        font.setPointSize(12)
+        font.setPointSize(16)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
@@ -130,7 +130,7 @@ class Ui_LoginWindow(object):
         self.label_3.setGeometry(QtCore.QRect(160, 40, 301, 31))
         font = QtGui.QFont()
         font.setFamily("Cambria")
-        font.setPointSize(12)
+        font.setPointSize(16)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
@@ -143,7 +143,7 @@ class Ui_LoginWindow(object):
         self.label_4.setGeometry(QtCore.QRect(140, 70, 341, 31))
         font = QtGui.QFont()
         font.setFamily("Cambria")
-        font.setPointSize(12)
+        font.setPointSize(16)
         font.setBold(True)
         font.setItalic(False)
         font.setWeight(75)
@@ -167,10 +167,10 @@ class Ui_LoginWindow(object):
         self.label_3.setText(_translate("MainWindow", "Daily Market Price Prediction"))
         self.label_4.setText(_translate("MainWindow", "using Deep Neural Networks \""))
         
-    def showSelectorWindow(self):
+    def showSelectorWindow(self, username):
         selectorWindow = QtWidgets.QMainWindow()
         ui = Ui_SelectorWindow()
-        ui.setupUi(selectorWindow)
+        ui.setupUi(selectorWindow, username)
         selectorWindow.show()
         
     def showLoginWarning(self):
@@ -197,7 +197,7 @@ class Ui_LoginWindow(object):
         result = connection.execute("SELECT * FROM USERS WHERE USERNAME = ? AND PASSWORD = ?", (username, password))
         if(len(result.fetchall()) > 0):
             print("User Found!")
-            self.showSelectorWindow()
+            self.showSelectorWindow(username)
             MainWindow.hide()
         else:
             print("User Not Found!")
@@ -223,7 +223,8 @@ class Ui_LoginWindow(object):
         else:
             pass
 
-
+# Only for Developers...
+'''
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
@@ -232,4 +233,4 @@ if __name__ == "__main__":
     ui.setupUi(LoginWindow)
     LoginWindow.show()
     sys.exit(app.exec_())
-
+'''
