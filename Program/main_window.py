@@ -85,7 +85,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.textBrowser.sizePolicy().hasHeightForWidth())
         self.textBrowser.setSizePolicy(sizePolicy)
-        self.textBrowser.setStyleSheet("background-image: url(Images/textBrowser-bg.png); color: rgb(74, 237, 227); font-weight: bold")
+        self.textBrowser.setStyleSheet("background-color: grey; color: rgb(74, 237, 227); font-weight: bold")#("background-image: url(Images/textBrowser-bg.png); color: rgb(74, 237, 227); font-weight: bold")
         self.textBrowser.setObjectName("textBrowser")
         self.outputTextB('Commodity: %s' % commodity)
         
@@ -95,6 +95,7 @@ class Ui_MainWindow(object):
         self.frame_2.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
+        self.frame_2.setStyleSheet("background-color: white;")
         self.horizontalLayout = QtWidgets.QHBoxLayout(self.frame_2)
         self.horizontalLayout.setObjectName("horizontalLayout")
         self.label = QtWidgets.QLabel(self.frame_2)
@@ -581,7 +582,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
-    ui.setupUi(MainWindow, "Amla", MainWindow)
+    ui.setupUi(MainWindow, "Amla", MainWindow, "Test")
     MainWindow.show()
     sys.exit(app.exec_())
 '''
