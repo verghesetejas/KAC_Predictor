@@ -85,7 +85,7 @@ class Ui_MainWindow(object):
         sizePolicy.setVerticalStretch(0)
         sizePolicy.setHeightForWidth(self.textBrowser.sizePolicy().hasHeightForWidth())
         self.textBrowser.setSizePolicy(sizePolicy)
-        self.textBrowser.setStyleSheet("background-color: grey; color: rgb(74, 237, 227); font-weight: bold")#("background-image: url(Images/textBrowser-bg.png); color: rgb(74, 237, 227); font-weight: bold")
+        self.textBrowser.setStyleSheet("background-color: black; color: rgb(0, 255, 0); font-weight: bold")#("background-image: url(Images/textBrowser-bg.png); color: rgb(74, 237, 227); font-weight: bold")
         self.textBrowser.setObjectName("textBrowser")
         self.outputTextB('Commodity: %s' % commodity)
         
