@@ -1,0 +1,121 @@
+STATE,DISTRICT,MARKET,COMMODITY,DATE,MIN_PRICE,MAX_PRICE,MOD_PRICE
+Chattisgarh,Bastar,Gidam,Amla,19/03/2019,223.0,6732.0,2041.0
+Gujarat,Ahmedabad,Ahmedabad,Amla,06/11/2019,123.0,6715.0,2022.0
+Punjab,Sangrur,Sangrur,Amla,03/11/2019,318.0,5971.0,2206.0
+Rajasthan,Udaipur,Udaipur,Amla(Nelli Kai),01/02/2019,829.0,5578.0,1889.0
+Madhya Pradesh,Shivpuri,Shivpuri,Amla,23/01/2019,109.0,6216.0,2189.0
+Madhya Pradesh,Narsinghpur,Gadarwada,Amla,29/12/2019,216.0,6283.0,2146.0
+Rajasthan,Kota,Kota (FV),Amla(Nelli Kai),02/01/2019,729.0,5674.0,1821.0
+Gujarat,Vadodara(Baroda),Vadodara,Amla,23/12/2019,245.0,6541.0,2175.0
+Andhra Pradesh,Anantapur,"P. Ramacharyulu Park,RBZ",Amla,31/12/2019,465.0,6862.0,2025.0
+Chattisgarh,Koria,Manendragarh,Amla,09/01/2019,239.0,6680.0,2093.0
+Andhra Pradesh,Nalgonda,Miryalaguda,Black Grams (Urd Beans),11/06/2019,5085.0,5872.0,3075.0
+Gujarat,Amreli,Rajula,Black Grams (Urd Beans),10/07/2019,4868.0,5723.0,2929.0
+Jharkhand,Sahebgang,Sahebganj,Black Grams (Urd Beans),11/12/2019,4400.0,5431.0,2665.0
+Karnataka,Bangalore,Bangalore,Black Grams (Urd Beans),05/02/2019,4309.0,5519.0,2681.0
+Kerala,Alappuzha,Chengannur,Black Grams (Urd Beans),09/12/2019,4248.0,5469.0,2640.0
+Kerala,Kottayam,Kottayam,Black Grams (Urd Beans),14/01/2019,4228.0,5393.0,2608.0
+Madhya Pradesh,Neemuch,Neemuch,Black Grams (Urd Beans),18/03/2019,4155.0,5310.0,2555.0
+Madhya Pradesh,Neemuch,Neemuch,Black Grams (Urd Beans),19/03/2019,4155.0,5310.0,2555.0
+Maharashtra,Sholapur,Akkalkot,Black Grams (Urd Beans),24/08/2019,3928.0,5285.0,2498.0
+Tamil Nadu,Cuddalore,Virudhachalam,Black Grams (Urd Beans),10/12/2019,3723.0,4987.0,2327.0
+Bihar,Bhabhua,Mohana,Kabuli Chana(Chickpeas-White),26/05/2019,7725.0,4883.0,13025.0
+Gujarat,Porbandar,Porbandar,Kabuli Chana(Chickpeas-White),08/07/2019,7642.0,4698.0,11624.0
+Haryana,Sirsa,Sirsa,Kabuli Chana(Chickpeas-White),26/05/2019,7606.0,4618.0,11164.0
+Madhya Pradesh,Burhanpur,Burhanpur,Kabuli Chana(Chickpeas-White),07/04/2019,7149.0,4458.0,12994.0
+Madhya Pradesh,Dhar,Dhar,Kabuli Chana(Chickpeas-White),20/05/2019,7172.0,4442.0,12775.0
+Punjab,Muktsar,Muktsar,Kabuli Chana(Chickpeas-White),07/12/2019,6941.0,4128.0,11642.0
+Kerala,Palakad,Palakkad,Kabuli Chana(Chickpeas-White),14/07/2019,7320.0,4405.0,11563.0
+Madhya Pradesh,Burhanpur,Burhanpur,Kabuli Chana(Chickpeas-White),07/04/2019,7149.0,4458.0,12994.0
+Madhya Pradesh,Shajapur,Shujalpur,Kabuli Chana(Chickpeas-White),17/08/2019,7282.0,4323.0,11067.0
+West Bengal,Howrah,Ramkrishanpur(Howrah),Kabuli Chana(Chickpeas-White),22/05/2019,6543.0,3785.0,11548.0
+Assam,Kamrup,P.O. Uparhali Guwahati,Cummin Seed(Jeera),01/03/2019,6674.0,5518.0,7377.0
+Gujarat,Ahmedabad,Sanad,Cummin Seed(Jeera),07/12/2019,6513.0,5410.0,7188.0
+Gujarat,Amreli,Amreli,Cummin Seed(Jeera),01/08/2019,6380.0,5460.0,7250.0
+Kerala,Alappuzha,Alappuzha,Cummin Seed(Jeera),04/06/2019,5833.0,5165.0,6431.0
+Madhya Pradesh,Neemuch,Neemuch,Cummin Seed(Jeera),18/02/2019,5753.0,4994.0,5904.0
+Rajasthan,Nagaur,Merta City,Cummin Seed(Jeera),24/02/2019,5237.0,4708.0,5254.0
+Rajasthan,Jodhpur,Jodhpur(Grain)(Phalodi),Cummin Seed(Jeera),30/04/2019,5230.0,4740.0,5344.0
+Gujarat,Patan,Harij,Cummin Seed(Jeera),16/08/2019,6298.0,5365.0,6820.0
+Maharashtra,Mumbai,Mumbai,Cummin Seed(Jeera),22/06/2019,5670.0,4959.0,5831.0
+Karnataka,Gadag,Gadag,Cummin Seed(Jeera),13/03/2019,5916.0,5162.0,6377.0
+Assam,Dibrugarh,Dibrugarh,Peas(Dry),19/01/2019,523.0,3676.0,1310.0
+Assam,Lakhimpur,North Lakhimpur,Peas(Dry),02/08/2019,544.0,3615.0,1331.0
+Chattisgarh,Jashpur,Pathalgaon,Peas(Dry),22/09/2019,557.0,3523.0,1330.0
+Jharkhand,Dumka,Dumka,Peas(Dry),13/02/2019,513.0,3323.0,1313.0
+Jammu and Kashmir,Jammu,Jammu (Grain Mandi),Peas(Dry),03/06/2019,522.0,3353.0,1319.0
+Madhya Pradesh,Sagar,Garhakota,Peas(Dry),21/07/2019,441.0,3107.0,1342.0
+Uttar Pradesh,Siddharth Nagar,Sahiyapur,Peas(Dry),10/03/2019,206.0,2561.0,1392.0
+Uttar Pradesh,Varanasi,Varanasi(Grain),Peas(Dry),04/09/2019,201.0,2533.0,1407.0
+Uttrakhand,Dehradoon,Vikasnagar,Peas(Dry),18/01/2019,277.0,2575.0,1358.0
+West Bengal,Burdwan,Asansol,Peas(Dry),20/06/2019,181.0,2602.0,1334.0
+Gujarat,Navsari,Vansda,Bhindi(Ladies Finger),02/03/2019,3103.0,5954.0,1792.0
+Himachal Pradesh,Chamba,Chamba,Bhindi(Ladies Finger),11/09/2019,2877.0,5964.0,1716.0
+Kerala,Kottayam,Kuruppanthura,Bhindi(Ladies Finger),14/08/2019,2593.0,5707.0,1720.0
+Maharashtra,Sholapur,Akluj,Bhindi(Ladies Finger),01/05/2019,2333.0,5599.0,1717.0
+Orissa,Bargarh,Bargarh,Bhindi(Ladies Finger),19/07/2019,2270.0,5581.0,1652.0
+Punjab,Fazilka,Fazilka,Bhindi(Ladies Finger),09/06/2019,2152.0,5444.0,1664.0
+Tripura,South District,Santir Bazar,Bhindi(Ladies Finger),16/07/2019,1999.0,5127.0,1712.0
+Uttar Pradesh,Hathras,Haathras,Bhindi(Ladies Finger),03/06/2019,1849.0,5188.0,1644.0
+West Bengal,Medinipur(E),Tamluk (Medinipur E),Bhindi(Ladies Finger),03/04/2019,1848.0,5020.0,1673.0
+West Bengal,Puruliya,Kasipur,Bhindi(Ladies Finger),16/09/2019,1752.0,5030.0,1671.0
+Haryana,Faridabad,Hodal,Galgal(Lemon),28/04/2019,7424.0,5045.0,13398.0
+Himachal Pradesh,Mandi,Chail Chowk,Galgal(Lemon),27/11/2019,7273.0,4983.0,12946.0
+Kerala,Alappuzha,Cherthala,Galgal(Lemon),11/05/2019,7034.0,4838.0,13023.0
+Punjab,Hoshiarpur,Dasuya,Galgal(Lemon),19/01/2019,6509.0,4498.0,11488.0
+Uttar Pradesh,Agra,Agra,Galgal(Lemon),29/06/2019,6090.0,4305.0,11173.0
+Himachal Pradesh,Mandi,Chail Chowk,Galgal(Lemon),23/11/2019,7273.0,4983.0,12946.0
+Kerala,Ernakulam,Piravam,Galgal(Lemon),10/08/2019,7115.0,4767.0,12410.0
+Kerala,Ernakulam,Piravam,Galgal(Lemon),04/11/2019,7115.0,4767.0,12409.0
+Punjab,Hoshiarpur,Dasuya,Galgal(Lemon),02/01/2019,6509.0,4497.0,11488.0
+Punjab,Hoshiarpur,Dasuya,Galgal(Lemon),25/01/2019,6509.0,4498.0,11487.0
+Assam,Bangaigaon,Bongiagaon,Lentil(Masur),22/12/2019,6228.0,4657.0,6788.0
+Jharkhand,Ranchi,Khunti,Lentil(Masur),12/07/2019,6228.0,4196.0,5962.0
+Madhya Pradesh,Panna,Panna,Lentil(Masur),28/02/2019,6215.0,4036.0,5983.0
+Manipur,Thoubal,Thoubal,Lentil(Masur),13/10/2019,6204.0,3885.0,5594.0
+Uttar Pradesh,Muzaffarnagar,Muzzafarnagar,Lentil(Masur),29/04/2019,5827.0,3554.0,6217.0
+Bihar,Bhagalpur,Bhagalpur,Lentil(Masur),05/02/2019,6207.0,4600.0,6739.0
+Chattisgarh,Bilaspur,Munguli,Lentil(Masur),19/10/2019,6335.0,4511.0,6542.0
+Manipur,Imphal East,Lamlong Bazaar,Lentil(Masur),12/08/2019,6103.0,3991.0,6472.0
+Rajasthan,Jhalawar,Jhalarapatan,Lentil(Masur),11/02/2019,5924.0,3794.0,6512.0
+West Bengal,Medinipur(W),Medinipur(West),Lentil(Masur),17/08/2019,5715.0,3465.0,6318.0
+Andaman and Nicobar,South Andaman,Port Blair,Mint(Pudina),27/05/2019,4026.0,4292.0,2880.0
+Gujarat,Ahmedabad,Ahmedabad(Rajnagar sub yard),Mint(Pudina),12/01/2019,3883.0,4206.0,3256.0
+Kerala,Kollam,Kollam,Mint(Pudina),20/07/2019,4006.0,3819.0,3078.0
+Punjab,Tarntaran,Harike,Mint(Pudina),05/05/2019,3913.0,3466.0,2934.0
+Rajasthan,Alwar,Alwar(FV),Mint(Pudina),01/05/2019,3813.0,3549.0,3327.0
+Gujarat,Ahmedabad,Ahmedabad(Rajnagar sub yard),Mint(Pudina),13/07/2019,3887.0,4207.0,3258.0
+Maharashtra,Nagpur,Kamthi,Mint(Pudina),26/10/2019,3984.0,3705.0,3039.0
+Gujarat,Dahod,Dahod(Veg. Market),Mint(Pudina),03/04/2019,3935.0,4166.0,3160.0
+Punjab,Tarntaran,Harike,Mint(Pudina),03/03/2019,3911.0,3465.0,2934.0
+Rajasthan,Jodhpur,Jodhpur(F&V)(Paota),Mint(Pudina),30/08/2019,3906.0,3477.0,3122.0
+Andhra Pradesh,Srikakulam,Kanchili,Paddy(Dhan),13/06/2019,1746.0,3949.0,1848.0
+Chattisgarh,Surguja,Sitapur,Paddy(Dhan),19/01/2019,1831.0,3760.0,1852.0
+Haryana,Yamuna Nagar,Bilaspur,Paddy(Dhan),22/10/2019,1748.0,3712.0,1849.0
+Jharkhand,Jamtara,Jamtara,Paddy(Dhan),01/08/2019,1793.0,3617.0,1876.0
+Karnataka,Raichur,Raichur,Paddy(Dhan),24/02/2019,1836.0,3491.0,1862.0
+Maharashtra,Raigad,Murud,Paddy(Dhan),16/02/2019,1798.0,3351.0,1865.0
+Pondicherry,Pondicherry,Thattanchavady,Paddy(Dhan),11/07/2019,1813.0,3187.0,1872.0
+Tamil Nadu,Sivaganga,Karaikudi,Paddy(Dhan),17/05/2019,1677.0,3051.0,1875.0
+Telangana,Ranga Reddy Dist.,Tanduru,Paddy(Dhan),05/05/2019,1737.0,2977.0,1877.0
+West Bengal,Bankura,Khatra,Paddy(Dhan),26/03/2019,1619.0,2896.0,1920.0
+Himachal Pradesh,Kullu,Bandrol,Persimon(Japani Fal),28/09/2019,289.0,3096.0,965.0
+Himachal Pradesh,Kullu,Bandrol,Persimon(Japani Fal),23/10/2019,289.0,3096.0,965.0
+Himachal Pradesh,Kullu,Bhuntar,Persimon(Japani Fal),21/09/2019,291.0,3093.0,967.0
+Himachal Pradesh,Mandi,Dhanotu (Mandi),Persimon(Japani Fal),03/10/2019,298.0,3081.0,973.0
+Himachal Pradesh,Mandi,Mandi(Mandi),Persimon(Japani Fal),19/11/2019,315.0,3059.0,984.0
+Himachal Pradesh,Kullu,Bandrol,Persimon(Japani Fal),05/10/2019,289.0,3096.0,965.0
+Himachal Pradesh,Kullu,Bhuntar,Persimon(Japani Fal),02/11/2019,291.0,3094.0,967.0
+Himachal Pradesh,Kullu,Kullu,Persimon(Japani Fal),27/10/2019,314.0,3064.0,982.0
+Himachal Pradesh,Mandi,Dhanotu (Mandi),Persimon(Japani Fal),22/09/2019,298.0,3081.0,973.0
+Himachal Pradesh,Mandi,Mandi(Mandi),Persimon(Japani Fal),28/09/2019,315.0,3059.0,984.0
+Andaman and Nicobar,Nicobar,Car Nicobar,Raddish,09/09/2019,793.0,3105.0,714.0
+Andaman and Nicobar,South Andaman,Port Blair,Raddish,18/06/2019,846.0,3028.0,747.0
+Andhra Pradesh,Chittor,Tirupati,Raddish,17/08/2019,837.0,3051.0,726.0
+Andhra Pradesh,Prakasam,Ongole(Rythu Bazar),Raddish,06/04/2019,837.0,3005.0,736.0
+Gujarat,Ahmedabad,Dholka(Market Yard Veg),Raddish,07/02/2019,772.0,2924.0,690.0
+Haryana,Yamuna Nagar,Chhachrauli,Raddish,04/10/2019,773.0,2759.0,737.0
+Jammu and Kashmir,Jammu,Narwal Jammu (F&V),Raddish,21/10/2019,788.0,2702.0,720.0
+Karnataka,Bangalore,"Binny Mill (F&V), Bangalore",Raddish,20/05/2019,726.0,2675.0,687.0
+Maharashtra,Nagpur,Nagpur,Raddish,01/04/2019,693.0,2427.0,737.0
+Punjab,Hoshiarpur,Mukerian,Raddish,06/01/2019,604.0,2263.0,725.0
