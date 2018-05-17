@@ -380,7 +380,7 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     SelectorWindow = QtWidgets.QMainWindow()
     ui = Ui_SelectorWindow()
-    ui.setupUi(SelectorWindow)
+    ui.setupUi(SelectorWindow, "Test")
     SelectorWindow.show()
     sys.exit(app.exec_())
 '''
