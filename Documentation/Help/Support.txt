@@ -1,6 +1,9 @@
 Support information:
 
-[Starting the application]
+[Start the application]
+	- Go to the folder named "Source Code" and double-click the "KAC Predictor.exe" application.
+
+[Start the application from Terminal or Commandline]
 	- Navigate to the project directory on the command line or terminal.
 	- Run __init__.py from command line or Terminal using the following command:
 	-> python3 __init__.py
